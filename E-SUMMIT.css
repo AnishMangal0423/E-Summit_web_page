@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-image:url(https://media.istockphoto.com/vectors/abstract-dark-hexagon-pattern-on-red-neon-background-technology-style-vector-id1290801796?k=20&m=1290801796&s=612x612&w=0&h=jF1UrtTP_G5b4etvpb_DmlL2hyC2_B5xmOo92IxvZpw=);
+
+      height: 400px;
+      background-position: center;
+    opacity: 0.87;
+      color: white;
+
+     
+}
+
+.nav-bar{
+    list-style: none;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 500;
+      color: whitesmoke;
+      display: inline-block;
+      margin-top: 0px;
+       
+}
+
+.nav-bar li{
+     color: white;
+    display: inline-block;
+      margin-left:35px;
+      margin-bottom:25px;
+}
+header img{
+    height: 60px;
+    width: 50px;
+    /* display: inline-block; */
+}
+
+.nav-bar li a{
+  transition: color 1s, border-bottom 2s;
+}
+header h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight:bolder;
+    font-size:xx-large;
+       
+}
+
+
+
+.nav-2{
+    color: white;
+    list-style: none;
+    text-align: center;
+    /* margin-right: 30px; */
+
+}
+.nav-2 li{
+
+    display: inline-block;
+    margin: 35px;
+}
+
+.nav-2 li a{
+    color: white;
+    transition: color 1s, border-bottom 2s;
+    
+}
+
+section{
+    width:100%;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+section:nth-child(2n){
+    background-color:rgb(216, 220, 229);
+    opacity:1;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  
+  .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width:-40px;
+    padding: 16px;
+    margin-top: -50px;
+    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .boxes{
+    display: flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   justify-content:space-around; 
+  
+   height:auto;
+ 
+  }
+
+  .boxes div{
+    height: 350px;
+    width: 300px;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    background-color:rgb(216, 220, 229);
+    opacity:0.8;
+    margin-top: 20px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+  }
+
+  
+form input{
+  color: green;
+  border:2px solid black;
+  font-family: cursive;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+   padding: 5px;
+}
+
+
+#container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-3{
+  color: green;
+  list-style: none;
+  text-align: center;
+  margin-right: 250px;
+  /* margin-right: 30px; */ 
+}
+
+.nav-3 li{
+
+  display: inline-block;
+  margin: 15px;
+}
+
+.nav-3 li a{
+  color: black;
+  transition: color 1s, border-bottom 2s;
+}
+
+.nav-3 li a:hover{
+  color: blue;
+  border-bottom: 2px solid red;
+ 
+}
+
+
+#sponsor-flex{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  margin-left: 80px;
+  flex-wrap: wrap;
+  height:700px;
+  width:auto;
+  position: relative;
+}
+
+#sponsor-flex div{
+  margin-top:10px;
+  /* border: 2px solid black; */
+  height:200px;
+  width:200px;
+}
+
+#sponsors{
+  height:800px;
+}
+
+#events{
+  height:900px;
+}
+
+.nav-bar li a:hover{
+  color: red;
+  border-bottom: 2px solid orange;
+ 
+}
+
+
+.nav-2 li a:hover{
+  color: red;
+  border-bottom: 2px solid orange;
+ 
+}
